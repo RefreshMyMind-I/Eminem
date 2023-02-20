@@ -1,0 +1,53 @@
+.container .bar {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    animation: progress-animation 4s forwards;
+}
+
+
+@keyframes progress-animation {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #ffffff;
+    margin: 0rm;
+    overflow: hidden;
+}
+
+
+
+
+
+
+#myimages>.image {
+    width: 40vmin;
+    height: 50vmin;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+#myimages {
+
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-0%, -50%);
+
+}
