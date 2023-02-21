@@ -30,8 +30,6 @@ const handleOnMove = e => {
   }
 }
 
-
-
 window.onmousedown = e => handleOnDown(e);
 
 window.ontouchstart = e => handleOnDown(e.touches[0]);
