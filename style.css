@@ -8,6 +8,19 @@
     animation: progress-animation 4s forwards;
 }
 
+.container .bar .name{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    animation: text-animation 4s forwards;
+}
 
 @keyframes progress-animation {
     0% {
@@ -27,7 +40,6 @@ body {
     margin: 0rm;
     overflow: hidden;
 }
-
 
 
 
