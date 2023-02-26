@@ -1,3 +1,2 @@
 # Eminem
-Fan site 
-	[Site](https://refreshmymind-i.github.io/Eminem/)
+Fan [Site](https://refreshmymind-i.github.io/Eminem/)
